@@ -1,14 +1,11 @@
-# aws-gcp-to-azure-migration
+# AWS/GCP to Azure Migration
 
-Azure portfolio repository for enterprise architecture, cloud transformation, and platform engineering.
+This repository provides mapping, modernization, and architecture guidance for organizations migrating workloads from AWS or GCP into Azure.
 
-## Scope
-
-- Azure solution architecture
-- Cloud migration and landing-zone design
-- Platform engineering, GitOps, and Kubernetes
-- Security, governance, and DevSecOps
-
-## Purpose
-
-This repository is intended as a reusable reference and portfolio asset for enterprise Azure delivery.
+```mermaid
+flowchart TD
+    A[AWS/GCP apps] --> B[Assessment]
+    B --> C[Landing Zone]
+    C --> D[Rehost/Replatform]
+    D --> E[Azure Native Services]
+```

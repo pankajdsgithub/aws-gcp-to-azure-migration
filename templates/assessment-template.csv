@@ -1,0 +1,2 @@
+Workload,Source,CurrentService,TargetService,MigrationPattern
+ExampleApp,AWS,EC2,Azure VM,Rehost
